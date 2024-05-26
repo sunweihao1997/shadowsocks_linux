@@ -70,5 +70,7 @@ git config --global https.proxy socks5h://127.0.0.1:1080
 ```
 
 delete proxy:
+```
 git config --global --unset http.proxy
 git config --global --unset https.proxy
+```
